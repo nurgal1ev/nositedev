@@ -186,7 +186,7 @@ body {
 
     /* line */
     .line {
-        opacity: 0;
+        display: none;
     }
 
 
@@ -207,13 +207,79 @@ body {
 @media (max-width: 1024px) {
     /* line */
     .line {
-        opacity: 0;
+        display: none;
     }
 }
 
 @media (max-width: 834px) {
     /* line */
     .line {
-        opacity: 0;
+        display: none;
+    }
+}
+
+@media (max-width: 410px) {
+    /* header */
+    .header__logo {
+        font-size: 18px;
+    }
+
+    /* main */
+    .main__title {
+        font-size: 20px;
+
+    }
+
+    .main__subtitle {
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
+
+    .main__suptext {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .main__suptext {
+        font-size: 20px;
+    }
+
+    .main__subtext {
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
+
+    .main__info {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* buttons */
+    .buttons {
+        margin-bottom: 10px;
+    }
+
+    .button {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    /* line */
+    .line {
+        display: none;
+    }
+
+
+    /* indev */
+    .indev {
+        margin-bottom: 50px;
+    }
+
+    .indev__suptext {
+        font-size: 20px;
+    }
+
+    .fa-solid fa-code {
+        font-weight: 600px;
     }
 }
