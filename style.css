@@ -125,17 +125,6 @@ body {
     font-weight: 500;
 }
 
-.line {
-    top: 30%;
-    right: 0;
-    position: absolute;
-    display: block;
-    width: 100%;
-    max-width: 1100px;
-    height: 1px;
-    background-color: #efefef;
-    float: right;
-}
 
 /* adaptive */
 @media (max-width: 390px) {
@@ -184,11 +173,6 @@ body {
         margin-bottom: 10px;
     }
 
-    /* line */
-    .line {
-        display: none;
-    }
-
 
     /* indev */
     .indev {
@@ -201,20 +185,6 @@ body {
 
     .fa-solid fa-code {
         font-weight: 600px;
-    }
-}
-
-@media (max-width: 1024px) {
-    /* line */
-    .line {
-        display: none;
-    }
-}
-
-@media (max-width: 834px) {
-    /* line */
-    .line {
-        display: none;
     }
 }
 
@@ -263,12 +233,6 @@ body {
         font-size: 15px;
         margin-bottom: 10px;
     }
-
-    /* line */
-    .line {
-        display: none;
-    }
-
 
     /* indev */
     .indev {
