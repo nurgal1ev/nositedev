@@ -8,6 +8,7 @@ body {
     background-image: url(./img/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #1b1c22;
 }
 
 *,
@@ -133,4 +134,86 @@ body {
     max-width: 1100px;
     height: 1px;
     background-color: #efefef;
+    float: right;
+}
+
+/* adaptive */
+@media (max-width: 390px) {
+    /* header */
+    .header__logo {
+        font-size: 18px;
+    }
+
+    /* main */
+    .main__title {
+        font-size: 20px;
+
+    }
+
+    .main__subtitle {
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
+
+    .main__suptext {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .main__suptext {
+        font-size: 20px;
+    }
+
+    .main__subtext {
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
+
+    .main__info {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* buttons */
+    .buttons {
+        margin-bottom: 10px;
+    }
+
+    .button {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    /* line */
+    .line {
+        opacity: 0;
+    }
+
+
+    /* indev */
+    .indev {
+        margin-bottom: 50px;
+    }
+
+    .indev__suptext {
+        font-size: 20px;
+    }
+
+    .fa-solid fa-code {
+        font-weight: 600px;
+    }
+}
+
+@media (max-width: 1024px) {
+    /* line */
+    .line {
+        opacity: 0;
+    }
+}
+
+@media (max-width: 834px) {
+    /* line */
+    .line {
+        opacity: 0;
+    }
 }
