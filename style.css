@@ -118,9 +118,17 @@ body {
 
 
 /* Indev */
+.dividing__line {
+    border-bottom: 1px solid #efefef;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
 .indev {
     margin: 0 auto;
-    margin-top: 300px;
+    margin-top: 170px;
     text-align: center;
     opacity: 0.6;
 }
