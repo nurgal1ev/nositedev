@@ -126,11 +126,12 @@ body {
     margin-bottom: 70px;
 }
 
-.indev {
+.myprojects {
     margin: 0 auto;
     margin-top: 170px;
     text-align: center;
-    opacity: 0.6;
+    display: flex;
+    justify-content: center;
 }
 
 .indev__suptext {
@@ -138,9 +139,27 @@ body {
     font-size: 30px;
     padding: 0;
     margin-bottom: 15px;
-    font-weight: 500;
+    font-size: 30px;
 }
 
+.projects__card {
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.card__img {
+    width: 350px;
+    border-radius: 20px;
+    border: 2px solid #efefef;
+    padding: 5px;
+    position: relative;
+}
+
+.projects__text {
+    margin-top: 15px;
+}
 
 /* adaptive */
 @media (max-width: 390px) {

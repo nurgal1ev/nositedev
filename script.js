@@ -1,3 +1,4 @@
+// text animation
 new Textify({
     el: '.header__logo',
     animation: {
