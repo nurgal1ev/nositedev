@@ -58,3 +58,23 @@ new Textify({
     animateProps: {"opacity":0,"scale":0}
     }
 },gsap)
+
+new Textify({
+    el: '.indev__suptext',
+    animation: {
+    stagger: 0.025,
+    duration: 0.4,
+    ease: 'expo.inOut',
+    animateProps: {"opacity":0,"scale":0}
+    }
+},gsap)
+
+new Textify({
+    el: '.links',
+    animation: {
+    stagger: 0.025,
+    duration: 0.4,
+    ease: 'expo.inOut',
+    animateProps: {"opacity":0,"scale":0}
+    }
+},gsap)

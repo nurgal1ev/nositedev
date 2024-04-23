@@ -153,7 +153,14 @@ body {
 
 .projects__img{
     margin-bottom: 15px;
+    opacity: 0;
+    animation: ani 2s forwards;
 }
+
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
 
 .projects__item {
     margin-left: 15px;
@@ -165,6 +172,27 @@ body {
     border: 2px solid #efefef;
     border-radius: 15px;
     padding: 5px;
+}
+
+/* footer */
+.footer {
+    margin-top: 350px;
+    margin-bottom: 50px;
+}
+
+.footer__links {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+
+
+.links {
+    text-decoration: none;
+    color: #efefef;
+    opacity: .5;
+    font-size: 15px;
 }
 
 /* adaptive */
@@ -236,6 +264,20 @@ body {
         margin-bottom: 20px;
     }
 
+    .links {
+        font-size: 12px;
+    }
+
+    .links__item {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 479px) {
+    .links {
+        font-size: 12px;
+
+    }
 }
 
 @media (max-width: 635px) {
